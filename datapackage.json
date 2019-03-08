@@ -1,0 +1,100 @@
+{
+  "name": "habemus-papam/input",
+  "title": "Source-code and database for benchmark or test any template system, inputs",
+  "format": "csv",
+  "datapackage_version": "1.0-beta.1",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "name": "Public Domain Dedication and License",
+      "version": "1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wikipedia English, Habemus Papam",
+      "web": "https://en.wikipedia.org/wiki/Habemus_Papam"
+    },
+    {
+      "name": "Wikipedia italiano, Habemus Papam",
+      "web": "https://it.wikipedia.org/wiki/Habemus_Papam"
+    },
+    {
+      "name": "Wikipedia Español, Habemus Papam",
+      "web": "https://es.wikipedia.org/wiki/Habemus_Papam"
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://github.com/ppKrauss/habemus-papam",
+      "path": "data/habemus-papam.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "description": "Year of the papal election",
+            "type": "integer"
+          },
+          {
+            "name": "day",
+            "description": "Day of the election",
+            "type": "string"
+          },
+          {
+            "name": "givenName",
+            "description": "Papa's original given name (usual person's first name). Ref http://schema.org/givenName",
+            "type": "string"
+          },
+          {
+            "name": "familyName",
+            "description": "Papa's original family name (usual person's last name). Ref http://schema.org/familyName",
+            "type": "string"
+          },
+          {
+            "name": "papalName_en",
+            "description": "(papal name) Papa's offical English (elected) name",
+            "type": "string"
+          },
+          {
+            "name": "papalName_it",
+            "description": "(papal name) Papa's offical Italian (elected) name",
+            "type": "string"
+          },
+          {
+            "name": "papalName_es",
+            "description": "(papal name) Papa's offical Spanish (elected) name",
+            "type": "string"
+          },
+          {
+            "name": "papalName_la_genit",
+            "description": "(papal name) Papa's offical Latin (elected) name, in genitive case",
+            "type": "string"
+          },
+          {
+            "name": "honorificPrefix_la",
+            "description": "Honorific prefix preceding a person's name in the announcement. Ref http://schema.org/honorificPrefix",
+            "type": "string"
+          },
+          {
+            "name": "givenName_la_accus",
+            "description": "Original given name translated to Latin accusative case. Ref http://schema.org/givenName",
+            "type": "string"
+          },
+          {
+            "name": "familyName_la_undecl",
+            "description": "Original family name translated to Latin undeclined form. Ref http://schema.org/givenName",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "maintainers":[{
+    "name": "PPKRAUSS",
+    "web": "https://github.com/ppKrauss/habemus-papam"
+  },{
+    "name": "LeandroJulio",
+    "web": "https://github.com/LeandroJulio"
+  }]
+}
