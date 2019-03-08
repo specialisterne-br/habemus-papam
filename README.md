@@ -16,9 +16,9 @@ O kit vem munido também de [introdução didática](docs/intro.md) e [fundament
 
 Um pouco menos abrangente, mas ainda muito útil e amplamente utilizado, um **sistema cujo _template_ é composto apenas de texto**, ou texto marcado (ex. texto HTML), é o foco do **Kit Habemus Papam**. Vejamos apenas duas entradas e um fragmento inicial do texto padronizado de template especificado aqui pelo kit. Abaixo as lacunas de texto foram destacadas em negrito, primeiro com os dados de 1534 depois com os dados mais recentes, de 2013:
 
-> O eminentíssimo e reverendíssimo Senhor, Senhor **Alessandro**. Cardeal da Santa Igreja Romana **Farnese**, Que se impôs o nome de **Paulo III**.&nbsp;&nbsp;(março de 2013)
+> O eminentíssimo e reverendíssimo Senhor, Senhor **Alessandro**. Cardeal da Santa Igreja Romana **Farnese**, Que se impôs o nome de **Paulo III**. &nbsp;&nbsp;&nbsp;(outubro&nbsp;de&nbsp;1534)
 
-> O eminentíssimo e reverendíssimo Senhor, Senhor **Jorge Mario**. Cardeal da Santa Igreja Romana **Bergoglio**, Que se impôs o nome de **Francisco**.&nbsp;&nbsp;(outubro de 1534)
+> O eminentíssimo e reverendíssimo Senhor, Senhor **Jorge Mario**. Cardeal da Santa Igreja Romana **Bergoglio**, Que se impôs o nome de **Francisco**. &nbsp;&nbsp;&nbsp;(março&nbsp;de&nbsp;2013)
 
 Um exemplo completo de *template*, um entre diversas possíveis formas de implementação e  possíveis *linguagens de template*, é o [arquivo `complete-official.xsl`](templates/complete-official.xsl), expresso em linguagem [XSLT](https://en.wikipedia.org/wiki/XSLT). 
 
