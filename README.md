@@ -24,7 +24,7 @@ Os fragmentos acima tem sua origem no template cujas lacunas, por exemplo `famil
 
 > O eminentíssimo e reverendíssimo Senhor, Senhor **`givenName`**. Cardeal da Santa Igreja Romana **`familyName`**, Que se impôs o nome de **`papalName_es`**.
 
-Um exemplo completo e mais complexo de *template*, um entre diversas possíveis formas de implementação e  possíveis *linguagens de template*, é o [arquivo `complete-official.xsl`](templates/complete-official.xsl), expresso em linguagem [XSLT](https://en.wikipedia.org/wiki/XSLT). 
+Um exemplo completo e mais complexo de *template*, um entre diversas possíveis formas de implementação e  possíveis *linguagens de template*, é o [arquivo `complete-official.xsl`](templates/complete_official.xsl), expresso em linguagem [XSLT](https://en.wikipedia.org/wiki/XSLT). 
 
 ------
 
