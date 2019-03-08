@@ -20,7 +20,11 @@ Um pouco menos abrangente, mas ainda muito útil e amplamente utilizado, um **si
 
 > O eminentíssimo e reverendíssimo Senhor, Senhor **Jorge Mario**. Cardeal da Santa Igreja Romana **Bergoglio**, Que se impôs o nome de **Francisco**. &nbsp;&nbsp;&nbsp;(março&nbsp;de&nbsp;2013)
 
-Um exemplo completo de *template*, um entre diversas possíveis formas de implementação e  possíveis *linguagens de template*, é o [arquivo `complete-official.xsl`](templates/complete-official.xsl), expresso em linguagem [XSLT](https://en.wikipedia.org/wiki/XSLT). 
+Os fragmentos acima tem sua origem no template cujas lacunas, por exemplo `familyName`, são nomes das colunas do [arquivo CSV](https://github.com/specialisterne-br/habemus-papam/blob/master/data/habemus-papam.csv):
+
+> O eminentíssimo e reverendíssimo Senhor, Senhor **`givenName`**. Cardeal da Santa Igreja Romana **`familyName`**, Que se impôs o nome de **`papalName_es`**.
+
+Um exemplo completo e mais complexo de *template*, um entre diversas possíveis formas de implementação e  possíveis *linguagens de template*, é o [arquivo `complete-official.xsl`](templates/complete-official.xsl), expresso em linguagem [XSLT](https://en.wikipedia.org/wiki/XSLT). 
 
 ------
 
@@ -42,5 +46,4 @@ Todos os dados de entrada deste kit são descritos pelo [padrão FrictionLessDat
 ------
 
 &#160;&#160;O conteúdo, dados e código-fonte deste repositório *git* são dedicados ao domínio público.<br/>&#160;&#160;[![](assets/CC0-logo-200px.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
 
