@@ -3,7 +3,7 @@ habemus-papam
 
 O mais antigo e popular *template oficial*, agora oferecido como kit-de-testes para aferição de functionalidades e performance de qualquer *sistema de template*.
 
-Sistemas de template estão disponíveis em todas as linguagens de programação, desde de um simples `print "Olá $x!"` até um sofisticado sistema de publicação de documentos. As diferentes implementações podem ser comparadas usando entradas e saídas padronizadas. Como não existe um "padrão ISO" para isso, estamos oferecendo o "Kit Habemus Papam", que se baseia no *template* mais antigo que se tem conhecimento: o [*Habemus&nbsp;Papam*](https://pt.wikipedia.org/wiki/Habemus_Papam) é um *texto de template* padronizado, lido repetidamente ao longo dos últimos 400 anos a cada morte de papa.
+Sistemas de template estão disponíveis em todas as linguagens de programação, desde de um simples `print "Olá $x!"` até um sofisticado sistema de publicação de documentos. As diferentes implementações podem ser comparadas usando entradas e saídas padronizadas. Como não existe um "padrão ISO" para isso, estamos oferecendo o "Kit Habemus Papam", que se baseia no *template* mais antigo que se tem conhecimento: o [*Habemus&nbsp;Papam*](https://pt.wikipedia.org/wiki/Habemus_Papam) é um *texto de template* padronizado, lido repetidamente ao longo dos últimos 400 anos a cada morte de papa.
 
 O kit abrange todos os conceitos básicos de um *sistema de template*: lacunas (*placeholders*), loops, funções auxiliares, dicionários e modelos multilíngues. Você pode comparar a performance e/ou classificar *sistemas de template* por suas características comprovadas com o kit.
 
@@ -11,7 +11,7 @@ O kit abrange todos os conceitos básicos de um *sistema de template*: lacunas (
 
 O kit vem munido também de [introdução didática](docs/intro.md) e [fundamentos&nbsp;teóricos](docs/fundamentos.md). Resumidamente, em um sistema de informação, o **_template_** é um "produto final com lacunas", uma **_entrada_** é um valor que vai preencher uma das lacunas, e o **_template&nbsp;engine_** é a máquina que executa a operação de adaptar valores de entrada e preencher as lacunas. Em conjunto, entrada, engine e template, formam o *sistema de template*. Em sistemas padronizados a "linguagem do template" também faz parte da definição do sistema.
 
-![](assets/tplFrame-cat-famosos.jpg)
+![](docs/assets/tplFrame-ret-famosos.jpg)
 
 Um pouco menos abrangente, mas ainda muito útil e amplamente utilizado, um **sistema cujo _template_ é composto apenas de texto**, ou texto marcado (ex. texto HTML), é o foco do **Kit&nbsp;Habemus&nbsp;Papam**. Vejamos apenas duas entradas e um fragmento inicial do texto padronizado de template especificado aqui pelo kit. Abaixo as lacunas de texto foram destacadas em negrito, primeiro com os dados de 1534 depois com os dados mais recentes, de 2013:
 
@@ -44,5 +44,5 @@ Todos os dados de entrada deste kit são descritos pelo [padrão FrictionLessDat
 
 ------
 
-&#160;&#160;O conteúdo, dados e código-fonte deste repositório *git* são dedicados ao domínio público.<br/>&#160;&#160;[![](assets/CC0-logo-200px.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+&#160;&#160;O conteúdo, dados e código-fonte deste repositório *git* são dedicados ao domínio público.<br/>&#160;&#160;[![](docs/assets/CC0-logo-200px.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 

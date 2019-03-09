@@ -5,5 +5,5 @@
 #
 
 BEGIN      { FS="," }
-$1!="year" { printf("\n Olá %s!",$3) }
+NR>1       { printf("\n Olá %s!",$3) }
 END        { print "\n" }

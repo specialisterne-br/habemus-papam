@@ -2,8 +2,8 @@
 # Make all asserts
 #
 
-ASSERT1_01 = ../../data/results/lev1-t01-hello.txt
-ASSERT1_02 = ../../data/results/lev1-t02-hLst.txt
+ASSERT1_01 = ../../data/kx/lev1-t01-hello.txt
+ASSERT1_02 = ../../data/kx/lev1-t02-hLst.txt
 INPUT      = ../../data/habemus-papam.csv
 
 all: comp run1 check clean
