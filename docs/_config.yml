@@ -1,1 +1,21 @@
+name: Kit Habemmus Papam
+avatar: http://au.specialisterne.com/files/2017/03/url.jpg
+description: O mais antigo dos TEMPLATES, padrão para benchmarks e ilustrações didáticas
+encoding: UTF-8
+kramdown:
+ input: GFM
+ hard_wrap: false
+# math_engine: mathjax
 theme: jekyll-theme-cayman
+gfm_quirks: paragraph_end
+timezone: America/Sao_Paulo
+url: http://br.specialisterne.com
+footer-links:
+  email: leandro.silva@specialisterne.com
+  facebook: specialisternebrasil
+  github: specialisterne-br/habemus-papam
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CNAME
